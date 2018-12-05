@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="dns-prefetch" href="//cdnec.sasa.com">
+		<!--预解析-->
+		<link rel='icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
+		<!--图标-->
+		<link rel='shortcut icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--文档兼容模式-->
+		<title>莎莎网-注册</title>
+
+		<!--css-->
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/signup.css" />
+		<!--js-->
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topbar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body id="signup">
+		<!--顶部-->
+		<div class="topbar">
+			<div class="page">
+				<div class="login-bar">
+					<span><span>欢迎光临莎莎官网！</span>
+					<a href="login.html" style="margin-left:10px;">登录</a> <span class="dividing">或 </span>
+					<a href="register.html">免费注册</a>
+					</span>
+				</div>
+				<div class="member-bar">
+					<ul>
+						<li class="line">
+							<div class="member-link">
+								<a href="">
+									<i class="iconfont">&#xe609;</i>我的账户<i class="iconfont min">&#xe60a;</i>
+								</a>
+								<dl id="mem_dl_247" style="display: none;">
+									<dd>
+										<a href="/account/login" rel="nofollow">我的订单</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的积分</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的优惠券</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的收藏</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的评价</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe603;</i>我的收藏</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe602;</i>我的站内信</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">积分中心</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">Global Site</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">关注我们<i class="iconfont min">&#xe60a;</i></a>
+								<dl class="ajust" id="us_246">
+									<dt>
+										<a href="">
+											<img src="img/topbar/add.png" alt="加入收藏" height="12" width="16">加入收藏										</a>
+										<a href="">
+											<img src="img/topbar/weibo.png" alt="新浪微博" height="15" width="17">新浪微博
+										</a>
+											<a href="">
+												<img src="img/topbar/weixin.png" alt="莎莎微信" height="14" width="17">莎莎微信</a><a href=""><img src="img/topbar/youku.png" alt="优酷视频" height="13" width="17">优酷视频
+											</a>
+									</dt>
+									<dd style="display: none;"><img src="img/topbar/bigweibo.jpg" alt="新浪微博" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="img/topbar/bigweixin.jpg" alt="莎莎微信" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="img/topbar/bigyouku.jpg" alt="优酷视频" width="100px" height="100px"></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-main page">
+			<div class="sotelogo">
+				<a href="index.html"><img alt="Ecstore-demo" src="img/logo.png" border="0"></a>
+			</div>
+		</div>
+		<div class="register_con page">
+			<div class="signin_wrap">
+				<div class="signin">
+					<div class="sign-title">
+						<div class="sign-title-text">
+							注册账号<span class="fr">已有莎莎网账号？<a href="login.html">立即登录</a></span>
+						</div>
+					</div>
+					<div class="signup_box">
+						<form action="" method="">
+							<ul>
+								<li class="form-item">
+									<label for="" class="form-label">输入邮箱/手机：</label>
+									<span class="form-act">
+										<input class="x-input" type="text" name="uname" value="" placeholder="请输入邮箱/手机号，最少5个字符">
+										
+									</span>
+								</li>
+								<li class="form-item">
+									<label for="" class="form-label">
+										<em class="warn">*</em>密码：
+									</label>
+									<span class="form-act">
+										<input class="x-input auto-password-check-handle" type="password" maxlength="16" placeholder="请输入密码6-16位字母和数字的组合" id="dom_el_e1a23b1" oncontextmenu="return false;" onpaste="return false;">
+										<span class="password-check">
+											<q>密码强度：</q>
+											<em class="poor">差</em>
+											<em class="weak">弱</em>
+											<em class="good">中</em>
+											<em class="strong">强</em>
+											<span class="progress">
+												<span class="percent">	
+											</span>
+										</span>
+									</span>
+									</span>
+								</li>
+								<li class="form-item">
+									<label for="" class="form-label">
+										<em class="warn">*</em>确认密码：
+									</label>
+									<span class="form-act">
+										<input class="x-input" type="password" maxlength="16" placeholder="再次填写密码" vtype="equal:pam_account[login_password]" oncontextmenu="return false;" onpaste="return false;">
+										<span class="validation-messagebox"></span>
+									</span>
+								</li>
+								<li class="form-item action-verifycode hide">
+									<label for="" class="form-label">验证码：</label>
+									<span class="form-act">
+        									<input class="img_input verify-input" type="text" placeholder="填写验证码" maxlength="4">
+        									<a class="code"   title="点击更换验证码" class="verify-code"></a>
+        									<a class="verify-code auto-change-verify-handle">看不清?换一张</a>      
+									</span>
+								</li>
+								<li class="form-item">
+									<label for="" class="form-label"></label>
+									<span class="form-act">
+										<input type="checkbox" name="site_autologin" id="for_auto_signin" class="x-check action-auto-signin">
+										<label for="" class="form-sub-label">同意</label>
+										<a href="">莎莎网使用条款</a>和<a href="">隐私保护政策</a>
+									</span>
+								</li>
+								<li class="form-item-normal">
+									<label for="" class="form-label"></label>
+									<span class="form-act">
+										<button type="submit" class="btn btn-major btn-big" rel="_request">
+											<span><span>注册</span></span>
+										</button>
+									</span>
+								</li>
+							</ul>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="theme-footer">
+			<p style="text-align: center;">
+				<font face="Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif"><span style="font-size: 13px; line-height: 20px;"><font color="#999999">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 莎莎国际控股有限公司成员</font></span></font>
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车-莎莎网</title>
+		<link rel="dns-prefetch" href="//cdnec.sasa.com">
+		<!--预解析-->
+		<link rel='icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
+		<!--图标-->
+		<link rel='shortcut icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--文档兼容模式-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<!--js-->
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topbar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body class="cart">
+		<div class="sidebar">
+			<div class="sidebar-box">
+				<div class="box-top">
+					<div class="explain">
+						<a href="http://www.sasa.com/customer_notice" target="_blank">选购境外商品须知</a>
+					</div>
+					<div id="myaccount" class="sidetab">
+						<a class="sidebar_link">
+							<i class="iconfont">&#xe609;</i>
+						</a>
+						<a href="" class="sidebar_tip">我的账户
+							<div class="mui-tip">◆</div>
+						</a>
+					</div>
+					<div class="sidecart">
+						<div class="sidecart-text">
+							<a>
+								<i class="iconfont">&#xe601;</i>购物车
+								<b><span>0</span></b>
+							</a>
+						</div>
+						<div class="sidecart-cont ui-sidecart-cont" id="js_sidecart">
+							<div class="cart-conttitle"><button class="btn-close" id="js_closecart" title="关闭" type="button"><i class="iconfont">&#xe61b;</i></button>购物车</div>
+							<div id="js_updatecart" class="J-updatecart"></div>
+						</div>
+					</div>
+					<div id="myfav" class="sidetab">
+						<a class="sidebar_link">
+							<i class="iconfont">&#xe603;</i>
+						</a>
+						<a href="" class="sidebar_tip">我的收藏
+							<div class="mui-tip">◆</div>
+						</a>
+					</div>
+					<div id="myhistory" class="sidetab">
+						<a class="sidebar_link">
+							<i class="iconfont">&#xe607;</i>
+						</a>
+						<a href="" class="sidebar_tip">浏览记录
+							<div class="mui-tip">◆</div>
+						</a>
+					</div>
+				</div>
+				<div class="box-bottom">
+					<div id="myservice" class="sidetab">
+						<a class="sidebar_link">
+							<i class="iconfont">&#xe604;</i>
+						</a>
+						<a href="" class="sidebar_tip">线上客服
+							<div class="mui-tip">◆</div>
+						</a>
+					</div>
+					<div id="sidecode" class="sidetab">
+						<a class="sidebar_link">
+							<i class="iconfont">&#xe606;</i>
+						</a>
+						<a href="" class="sidebar_tip" style="padding-right: 50px;">
+							<div class="mui-tab-tip" style="margin-top: -50px;">
+								<img src="img/weixin.jpg" width="140px" height="140px" />
+							</div>
+							<div class="mui-tip" style="color: #FFFFFF;">◆</div>
+						</a>
+					</div>
+					<div class="sideup">
+						<div class="sideup-text">
+							<a><i class="iconfont">&#xe608;</i>TOP</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="topbar">
+			<div class="page">
+				<div class="login-bar">
+					<span id="loginBar">
+						<span>欢迎光临莎莎官网！</span>
+					<a href="login.html" style="margin-left:10px;">登录</a> <span class="dividing">或 </span>
+					<a href="register.html">免费注册</a>
+					</span>
+					<span id="memberBar">
+	   				 	<span>您好！<span id="uname"></span></span>
+					<span class="point" style="color:#cb9966;"><b>0</b> 积分</span>
+					<a href="index.html">退出</a>
+					</span>
+				</div>
+				<div class="member-bar">
+					<ul>
+						<li class="line">
+							<div class="member-link">
+								<a href="">
+									<i class="iconfont">&#xe609;</i>我的账户<i class="iconfont min">&#xe60a;</i>
+								</a>
+								<dl id="mem_dl_247" style="display: none;">
+									<dd>
+										<a href="/account/login" rel="nofollow">我的订单</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的积分</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的优惠券</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的收藏</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的评价</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe603;</i>我的收藏</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe602;</i>我的站内信</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">积分中心</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">Global Site</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">关注我们<i class="iconfont min">&#xe60a;</i></a>
+								<dl class="ajust" id="us_246">
+									<dt><a href=""><img src="img/topbar/add.png" alt="加入收藏" height="12" width="16">加入收藏</a><a href=""><img src="img/topbar/weibo.png" alt="新浪微博" height="15" width="17">新浪微博</a><a href=""><img src="img/topbar/weixin.png" alt="莎莎微信" height="14" width="17">莎莎微信</a><a href=""><img src="img/topbar/youku.png" alt="优酷视频" height="13" width="17">优酷视频</a></dt>
+									<dd style="display: none;"><img src="img/topbar/bigweibo.jpg" alt="新浪微博" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="img/topbar/bigweixin.jpg" alt="莎莎微信" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="img/topbar/bigyouku.jpg" alt="优酷视频" width="100px" height="100px"></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-main">
+			<div class="page">
+				<div class="topcarticon fr">
+					<div>
+						<img src="img/hk.png">&nbsp; &nbsp;
+						<img src="img/zp.png">&nbsp;&nbsp;&nbsp;
+						<img src="img/fp.png"></div>
+				</div>
+				<div class="topcart-step01 topcart-step"></div>
+				<div class="sotelogo">
+					<a href="index.html">
+						<img alt="欢迎光临莎莎网" src="img/logo.png" border="0">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="main" class="ui-cart-body page">
+			<!-- 购物车开始 -->
+			<!-- 购物车主体 -->
+			<div id="J_cartContainer" class="cart-container ui-cart-cont">
+				<div class="carttitle bticon">
+					您的购物车中的商品</div>
+				<form action="" method="post">
+					<!-- 购物车内容 -->
+					<table id="cart_main" class="cart-main" width="100%">
+						<tbody>
+							<tr>
+								<td>
+									<div class="ui-cart-tips">
+										香港直送商品订单满<label class="color-pink">¥249</label>包邮
+									</div>
+								</td>
+							</tr>
+							<!-- 香港直送 -->
+							<tr>
+								<td>
+									<table class="ui-cart-table J_cart-table">
+										
+										
+										<!-- 积分兑换 -->
+									</table>
+								</td>
+							</tr>
+							
+						<tbody id="J_cartPromotionCont">
+							<tr>
+								<td>
+									<table class="ui-cart-table ui-cart-promotiontable">
+										<thead>
+											<tr>
+												<th class="ui-carttable-th1">已享受的优惠</th>
+												<th class="ui-carttable-th2">优惠项目</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+											</tr>
+										</thead>
+										<!-- 商品 -->
+										<tbody id="J_cartPromotion">
+											<tr>
+												<td class="ui-carttable-td1">&emsp;</td>
+												<td class="ui-carttable-td2">
+													<i class="tipyel" style="margin-right: 6px;background-color:#71D2C3;color:#FFFFFF;">订单促销</i>满￥249免运费 </td>
+												<td>&emsp;</td>
+												<td>&emsp;</td>
+												<td>&emsp;</td>
+												<td>&emsp;</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+						<tfoot id="J_cartPriceCont" class="ui-cart-foot">
+							<tr>
+								<td>
+									<table class="ui-cart-table" id="J_orderPrice">
+										<tbody>
+											
+											<tr>
+												<td class="ui-cartfoot-check">
+													<div class="fl">
+														<a href="index.html" class="ui-cartfoot-link mr20">继续购物</a>
+														<a id="J_actionClean" class="ui-cartfoot-link">清空购物车</a>
+													</div>
+													<div class="fr">
+														<span class="ui-cartfoot-label">共 <span class="red items-quantity">3</span> 件商品</span>
+														<span class="ui-cartfoot-label">商品应付金额
+                <strong class="red f18 promotion-subtotal ui-cart-total">¥275.0</strong>
+              </span>
+														<button type="submit" class="btn btn-import btn-huge action-settle" rel="_request"><span><span>结账</span></span></button>
+													</div>
+												</td>
+											</tr>
+											<tr class="ui-carttable-placeholder">
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</form>
+			</div>
+			<!-- 加价区 -->
+			<div class="addbuy clb" id="cart_addbuy">
+				<a name="addbuy"></a>
+				<div class="addbuybt tc">加购区</div>
+				<div class="flashsaletab">
+					<ul style="width: 298px;">
+						<li class="" rel="0-20">
+							<a href="javascript:void(0);"><em>20元以下</em></a>
+						</li>
+						<li rel="20-50" class="">
+							<a href="javascript:void(0);"><em>20-50元</em></a>
+						</li>
+						<li rel="50-100" class="current">
+							<a href="javascript:void(0);"><em>50-100元</em></a>
+						</li>
+					</ul>
+				</div>
+				<div class="flashsalecontent">
+					<div class="flip prev over">
+						<a href="javascript:void(0);"><i class="iconfont">&#xe61d;</i></a>
+					</div>
+					<div class="wrapper" style="overflow: hidden; height: 620px; position: relative;">
+						<ul class="arrivalslist" style="position: absolute; width: 11160px;">
+
+							<li class="normal">
+
+								<!-- 秒杀倒计时 -->
+
+								<div class="formall" product_id="16386" goods_id="16850">
+
+									<div class="formallcont">
+										<div class="arrivals-pic">
+											<!-- lefttop tag -->
+											<b><img src="http://cdnec.sasa.com/public/images/a1/be/25/e520cc1d8e1e3ba0f5de7894c1feea644109e80b.png?1435810464#h"></b>
+											<dl class="">
+												<dd><i class="icountry"><img src="http://cdnec.sasa.com/public/images/36/74/a3/8ae1c7c8877ec1caaa8ed39ae8cdc1401d8ab384.png?1437562092#h"></i>韩国品牌</dd>
+											</dl>
+											<!-- 活动标签 -->
+											<a href="/facialcare/Mediheal-107519102001.html" target="_blank"><img id="JS-goods-img-0" class="action-goods-img" alt="美迪惠尔胶原蛋白去黑头三段式猪鼻贴 (韩国进口 原厂正品)6克" src="http://cdnec.sasa.com/public/images/e7/d3/9e/e9c02d1fcae61ba5eddf98b348a77ce19f5f6478.jpg?1449746503#h"></a>
+										</div>
+										<div class="sale-price"><span class="count fr">3.4折</span><span class="price tl">￥12.0</span><span class="dis tl"><del>￥35.0</del></span></div>
+										<div class="arrivals-info">
+											<div class="infoconts">
+												<div class="des02">
+													<a href="/brand/l-p-beauty-clinic-mediheal-mediental" target="_blank">美迪惠尔</a>
+												</div>
+												<p class="des03">
+													<a href="/facialcare/Mediheal-107519102001.html" target="_blank">胶原蛋白去黑头三段式猪鼻贴 (韩国进口 原厂正品) </a>
+												</p>
+												<p class="des04">6克&nbsp;&nbsp;</p>
+											</div>
+											<!-- 秒杀简介 -->
+											<div class="des05">
+												<i class="icon iconfont"></i> 清除黑头及粉刺问题 3个步骤，带给你滑溜溜的猪鼻子: 第一步骤先深入软化黑头、白头，使接下来使用的鼻膜能更有效地去除黑头、白头。 </div>
+											<!-- 已售出 -->
+										</div>
+										<!--加入收藏的商品也要可以加入购物车 ADD BY JYQ BEGIN-->
+										<div class="btn-buy">
+											<a href="/cart-add-goods-16850-16386-1.html" class="btn btn-major action-addtocart" rel="nofollow">
+												<span><span>立即抢购</span></span>
+											</a>
+
+										</div>
+										<!--加入收藏的商品也要可以加入购物车 ADD BY JYQ end-->
+									</div>
+								</div>
+								<p class="time" id="seckill_time_83200_"><i class="icon iconfont">&#xe60e;</i>剩余<span class="day"></span>天<span class="hour"></span>时<span class="minute"></span>分<span class="second">	</span>秒</p>
+							</li>						
+
+						</ul>
+					</div>
+					<div class="flip next">
+						<a href="javascript:void(0);"><i class="iconfont">&#xe61e;</i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="helper">
+				<div class="page">
+					<div class="btom-code">
+						<img src="img/code/weixin.png" alt="莎莎官方微信" height="114" width="88"> </div>
+					<div class="btom-code">
+						<a href="http://www.weibo.com/sasahongkong" target="_blank" rel="nofollow">
+							<img src="img/code/weibo.png" alt="莎莎官方微博" height="114" width="88"></a>
+					</div>
+					<div class="btom-info">
+						<img src="img/code/logo.png">
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title" style="color:#ec3e7d">新手上路</dt>
+							<dd class="article-index-list">
+								<a href="" title="购物流程" rel="nofollow">购物流程</a>
+								<a href="" title="优惠券说明" rel="nofollow">优惠券说明</a>
+								<a href="" title="常见问题" rel="nofollow">常见问题</a>
+								<a href="" title="联络我们" rel="nofollow">联络我们</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title" style="color:#ec3e7d">付款方式</dt>
+							<dd class="article-index-list">
+								<a href="" title="在线支付" rel="nofollow">在线支付</a>
+								<a href="" title="在线支付" rel="nofollow">积分支付</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title" style="color:#ec3e7d">配送方式</dt>
+							<dd class="article-index-list">
+								<a href="" title="在线支付" rel="nofollow">配送说明</a>
+								<a href="" title="在线支付" rel="nofollow">追踪订单</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title" style="color:#ec3e7d">售后服务</dt>
+							<dd class="article-index-list">
+								<a href="" title="正品保证" rel="nofollow">正品保证</a>
+								<a href="" title="价格承诺" rel="nofollow">价格承诺</a>
+								<a href="" title="30日退换保证" rel="nofollow">30日退换保证</a>
+								<a href="" title="退款程序" rel="nofollow">退款程序</a>
+								<a href="" title="更改订单" rel="nofollow">更改订单</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title" style="color:#ec3e7d">莎莎会员</dt>
+							<dd class="article-index-list">
+								<a href="" title="积分奖赏" rel="nofollow">积分奖赏</a>
+								<a href="" title="会员计划" rel="nofollow">会员计划</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="bottom_link">
+					<a href="/about" rel="nofollow">关于莎莎</a>
+					<a href="/terms" rel="nofollow">使用条款</a>
+					<a href="/privacy-policy" rel="nofollow">私隐政策</a>
+					<a href="/business" rel="nofollow">招商合作</a>
+					<a href="/notice/declaration" rel="nofollow">帮助中心</a>
+					<a href="/promotion" rel="nofollow">港澳店铺推广</a>
+					<a href="/recruit" rel="nofollow">人才招聘</a>
+					<a href="/cs" rel="nofollow">联络我们</a>
+					<a href="/sitemap.html" rel="nofollow">网站地图</a>
+					<a href="http://web1.sasa.com/SasaWeb/splash.jsp" rel="nofollow">其他送货地区</a>
+				</div>
+				<div class="theme-footer">
+					<p class="page" style="text-align: center;font-size: 13px; line-height: 20px;color:#999999;">
+						<span class="fl">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+						<span class="fr">莎莎国际控股有限公司成员</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
