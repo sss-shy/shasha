@@ -1,0 +1,314 @@
+.topcart-step01 {
+    background-position: 0 0;
+}
+.sotelogo {
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    top: 21px;
+    overflow: hidden;
+}
+.topcart-step {
+    width: 472px;
+    height: 62px;
+    float: left;
+    margin: 20px 0 0 280px;
+    background: url(../img/cart.png) no-repeat;
+    overflow: hidden;
+}
+.topcarticon {
+    padding-top: 30px;
+    width: 235px;
+    overflow: hidden;
+}
+.topcarticon img {
+    max-width: 235px;
+    max-height: 62px;
+}
+/*购物车主体部分*/
+.ui-cart-body .ui-cart-cont {
+    padding-top: 20px;
+}
+.cart-container {
+    width: 985px;
+    margin: 0 auto;
+}
+.ui-cart-body .carttitle {
+    margin: 20px 0 0px;
+    height: 38px;
+}
+.carttitle {
+    height: 43px;
+    background-position: 0 -845px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 30px 0 0 0;
+}
+.ui-cart-body .cart-main {
+    background-color: transparent;
+}
+.cart-main {
+    color: #666666;
+}
+.cart-main {
+    background: #fff;
+    table-layout: fixed;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.ui-cart-body .ui-cart-tips {
+    text-align: right;
+    padding-bottom: 10px;
+}
+.ui-cart-body .cart-main td {
+    line-height: normal;
+    padding: 0;
+}
+.cart-main td {
+    line-height: 20px;
+    vertical-align: top;
+    text-align: center;
+    padding: 2px 0;
+}
+.ui-cart-body .ui-cart-tips {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 19px;
+}
+.color-pink {
+    color: #ec3e7d;
+}
+.ui-cart-body .ui-cart-table {
+    background-color: #fff;
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+    margin-top: 19px;
+}
+.ui-cart-body .cart-main thead {
+    border-left: 5px solid #EC3E7D;
+}
+.cart-main thead tr {
+    height: 37px;
+}
+.ui-cart-body .cart-main thead th:first-child {
+    position: relative;
+    padding-left: 10px;
+    text-align: left;
+}
+.ui-cart-body .ui-cart-table th.ui-carttable-th1 {
+    width: 201px;
+}
+.ui-cart-body .ui-cart-table th.ui-carttable-th2 {
+    width: 376px;
+    text-align: left;
+}
+.cart-main thead th {
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+}
+.ui-cart-body .ui-cart-table tbody:last-of-type {
+    border-bottom: 0 none;
+}
+.ui-cart-body .ui-cart-promotiontable.ui-cart-table td.ui-carttable-td2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ui-cart-body .ui-cart-table td.ui-carttable-td1, .ui-cart-body .ui-cart-table td.ui-carttable-td2 {
+    text-align: left;
+}
+i.tipyel {
+    background: #be9a5e;
+    padding: 1px 5px;
+    color: #fff;
+    font-style: normal;
+    display: inline-block;
+    margin-right: 6px;
+    background-color: #71D2C3;
+    color: #FFFFFF;
+}
+.ui-cart-body .ui-cart-foot .ui-cart-table td:last-child {
+    padding-top: 0;
+    padding-right: 0;
+}
+.ui-cart-body .ui-cart-foot .ui-cartfoot-check {
+    line-height: 40px;
+    padding-left: 25px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.ui-cart-body .ui-cart-foot .ui-cartfoot-label {
+    padding-right: 35px;
+}
+.ui-cart-body .ui-cart-foot .ui-cartfoot-check button {
+    vertical-align: top;
+}
+.ui-cart-body .ui-cart-foot .ui-cartfoot-check button span {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+     background: #EC3E7D;
+    color: #FFFFFF;
+}
+.btn-huge {
+	display: inline;
+	cursor: pointer;
+	outline: none;
+	
+}
+.btn-huge span {
+    line-height: 35px;
+    border-radius: 0;
+    font-size: 16px;
+}
+.btn-huge span span {
+    padding-left: 50px; 
+    padding-right: 50px;
+   
+}
+.btn {
+    border: 0 none;
+    background-color: transparent;
+    padding: 0;
+    font-size: 100.0%;
+    _overflow-y: hidden;
+}
+.red, a.red {
+    color: #db3f7e;
+}
+.f18 {
+    font-size: 18px;
+}
+.ui-cartfoot-check a {
+	cursor: pointer;
+}
+.ui-cart-body .ui-cart-pimg {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding:15px 0 15px 15px;
+}
+.ui-cart-body .ui-cart-pimg img {
+    vertical-align: top;
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+.ui-cart-body .ui-cart-table td.ui-carttable-td2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.ui-cart-body .ui-carttable-spec {
+    padding-top: 10px;
+    color: #b2b2b2;
+}
+.J_cart-table tbody {
+	border-top: 1px solid #eee;
+}
+.J-price,.J-quantity,.J-subtotal,.J-btnDelete {
+	padding-top: 25px!important;
+}
+.cart-main .p-quantity a {
+    float: left;
+    width: 20px;
+    height: 21px;
+    overflow: hidden;
+    background: #f4f6f5;
+    text-align: center;
+    font: 14px/22px simsun,serif;
+}
+.cart-main .p-quantity a {
+    float: left;
+    width: 20px;
+    height: 21px;
+    overflow: hidden;
+    background: #f4f6f5;
+    text-align: center;
+    font: 14px/22px simsun,serif;
+    cursor: pointer;
+}
+.cart-main .p-quantity input {
+    float: left;
+    width: 30px;
+    height: 19px;
+    line-height: 19px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e9e9e9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.p-quantity {
+	padding-left: 14px;
+}
+.J-btnDelete a {
+	cursor: pointer;
+}
+.addbuy {
+    padding: 50px 0;
+}
+.addbuybt {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.addbuy .flashsaletab {
+    margin: 30px auto 40px auto;
+}
+.flashsaletab {
+    border-bottom: 1px solid #ec3e7d;
+    height: 20px;
+}
+
+.flashsalecontent {
+    height: 560px;
+    position: relative;
+}
+
+.flashsalecontent .flip .iconfont {
+    font-size: 56px;
+}
+.flashsalecontent .prev a {
+    font-family: iconfont !important;
+    position: absolute;
+    top: 240px;
+    left: -60px;
+    font-size: 60px;
+    color: #cccccc;
+    cursor: pointer;
+}
+.flashsalecontent .next a {
+    font-family: iconfont !important;
+    position: absolute;
+    top: 240px;
+    right: -60px;
+    font-size: 60px;
+    color: #cccccc;
+    cursor: pointer;
+}
+.flashsaletab ul {
+    width: 298px;
+    margin: 0 auto;
+    border: 1px solid #ec3e7d;
+    border-radius: 25px;
+    height: 35px;
+    line-height: 29px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.flashsaletab ul li.current {
+    background: #edcdda;
+    border-radius: 18px;
+}
+.flashsaletab ul li {
+    display: inline-block;
+    float: left;
+    margin: 3px 5px;
+    padding: 0 15px;
+}

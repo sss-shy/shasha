@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+    shouye
+    {% endblock %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/iconfont.css' %}" />
+    <script type="text/javascript" src="{% static 'js/jquery-1.11.0.js' %}"></script>
+    <script src="{% static 'js/common.js' %}" type="text/javascript" charset="utf-8"></script>
+    <script src="{% static 'js/topbar.js' %}" type="text/javascript" charset="utf-8"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}" type="text/javascript" charset="utf-8"></script>
+    {% block basecss %}
+
+{% endblock %}
+    {% block basejs %}
+
+    {% endblock %}
+</head>
+
+<body>
+{% block basebodyo %}
+
+{% endblock %}
+<div class="topbar">
+			<div class="page">
+				<div class="login-bar">
+					<span id="loginBar">
+						<span>欢迎光临莎莎官网！</span>
+					<a href="login.html" style="margin-left:10px;">登录</a> <span class="dividing">或 </span>
+					<a href="register.html">免费注册</a>
+					</span>
+					<span id="memberBar">
+	   				 	<span>您好！<span id="uname"></span></span>
+					<span class="point" style="color:#cb9966;"><b>0</b> 积分</span>
+					<a href="index.html">退出</a>
+					</span>
+				</div>
+				<div class="member-bar">
+					<ul>
+						<li class="line">
+							<div class="member-link">
+								<a href="">
+									<i class="iconfont">&#xe609;</i>我的账户<i class="iconfont min">&#xe60a;</i>
+								</a>
+								<dl id="mem_dl_247" style="display: none;">
+									<dd>
+										<a href="/account/login" rel="nofollow">我的订单</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的积分</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的优惠券</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的收藏</a>
+									</dd>
+									<dd>
+										<a href="/account/login" rel="nofollow">我的评价</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe603;</i>我的收藏</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href=""><i class="iconfont">&#xe602;</i>我的站内信</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">积分中心</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">Global Site</a>
+							</div>
+						</li>
+						<li class="line">
+							<div class="member-link">
+								<a href="">关注我们<i class="iconfont min">&#xe60a;</i></a>
+								<dl class="ajust" id="us_246">
+									<dt><a href=""><img src="{% static 'img/topbar/add.png' %}" alt="加入收藏" height="12" width="16">加入收藏</a>
+                                        <a href=""><img src="{% static 'img/topbar/weibo.png' %}" alt="新浪微博" height="15" width="17">新浪微博</a>
+                                        <a href=""><img src="{% static 'img/topbar/weixin.png' %}" alt="莎莎微信" height="14" width="17">莎莎微信</a>
+                                        <a href=""><img src="{% static 'img/topbar/youku.png' %}" alt="优酷视频" height="13" width="17">优酷视频</a></dt>
+									<dd style="display: none;"><img src="{% static 'img/topbar/bigweibo.jpg' %}" alt="新浪微博" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="{% static 'img/topbar/bigweixin.jpg' %}" alt="莎莎微信" width="100px" height="100px"></dd>
+									<dd style="display: none;"><img src="{% static 'img/topbar/bigyouku.jpg' %}" alt="优酷视频" width="100px" height="100px"></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<div class="header-main">
+			<div class="page">
+				<div class="logo">
+					<a href="index.html"><img src="{% static 'img/logo.png' %}" alt="logo" /></a>
+				</div>
+
+
+			</div>
+		</div>
+{% block basebodyt %}
+
+{% endblock %}
+<div class="footer">
+			<div class="helper">
+				{% block footert %}
+				
+				{% endblock %}
+				<div class="theme-footer">
+					<p class="page" style="text-align: center;font-size: 13px; line-height: 20px;color:#999999;">
+						<span class="fl">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+						<span class="fr">莎莎国际控股有限公司成员</span>
+					</p>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

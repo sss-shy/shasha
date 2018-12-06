@@ -16,3 +16,7 @@ def register(request):
 
 def cart(request):
     return render(request,"Shopping Cart.html")
+
+
+def base(request):
+    return render(request,"base.html")

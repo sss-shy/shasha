@@ -1,0 +1,240 @@
+/*.header-main*/
+
+#signup {
+	background: #FFFFFF;
+}
+.header-main {
+	background: #fff;
+	position: relative;
+}
+.sotelogo {
+	width: 300px;
+	height: 45px;
+	position: absolute;
+	top: 21px;
+	overflow: hidden;
+}
+.login_con .signin_wrap {
+	background: url(../img/signin.png) no-repeat 0 center;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.register_con .signin_wrap {
+	background: url(../img/register.jpg) no-repeat 0 center;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.signin {
+	width: 350px;
+    padding: 35px;
+    margin-right: 68px;
+    box-shadow: 0 0 5px #e1e1e1,0 0 15px #e1e1e1;
+    float: right;
+    margin-bottom: 20px;
+}
+.sign-title-text {
+    font-family: 'Microsoft Yahei';
+    color: #5a5d6c;
+    font-weight: normal;
+    font-size: 21px;
+}
+.sign-title-text span {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.signin a {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #ec3e7d;
+}
+.signup_box {
+    margin-top: 40px;
+}
+.form-item {
+    height: 51px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.signin .form-label {
+    display: none;
+}
+.form-sub-label {
+	margin-left: 5px;
+    margin-right: 15px;
+}
+.form-act {
+    position: relative;
+    display: block;
+    _display: inline;
+}
+input[type=text], input[type=file], input[type=password], input[type=number], input[type=email], input[type=tel], input[type=url], input[type=search], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], textarea {
+    border-style: solid;
+}
+input, select, textarea {
+    border-width: 1px;
+    border-color: #cccccc;
+    padding: 1px;
+    outline: none;
+    display: inline-block;
+}
+input[type=checkbox], input[type=radio] {
+    height: 13px;
+    width: 20px;
+    box-shadow: none;
+}
+.x-input {
+    width: 340px;
+    height: 26px;
+    line-height: 26px;
+    padding: 4px;
+}
+input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus {
+	border-color: #f9a0b4;
+	box-shadow: 0 0 5px #fbb4b0
+}
+input[type=checkbox]:hover, input[type=checkbox]:focus {
+	box-shadow: none;
+}
+.icon-yhm {
+    background: url(../img/login.png) 6px -120px no-repeat;
+    text-indent: 24px;
+}
+.icon-mm {
+    background: url(../img/login.png) 6px -160px no-repeat;
+    text-indent: 24px;
+}
+.btn-big {
+	display: block;
+    width: 100%;
+    background: #ec3e7d;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+button {
+    border: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+}
+.other-login {
+    clear: both;
+    padding-top: 40px;
+}
+.other-login ul li {
+    display: inline-block;
+    float: left;
+    width: 115px;
+    padding: 10px 0;
+    font-size: 12px;
+}
+.other-login ul li img {
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 35px;
+}
+.verify-input {
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    padding: 4px;
+}
+.notice-inline {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.notice-inline .iconfont {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.error .iconfont {
+    color: #db3f7e;
+}
+.true .iconfont {
+    color: mediumseagreen;
+}
+.password-check {
+    width: 22px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    visibility: visible;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+q{
+	display: none;
+}
+.password-check em {
+    display: none;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    background: url(../img/login.png) no-repeat;
+    color: #fff;
+}
+.password-check .poor {	
+	background-position: 0 0;
+}
+.password-check .weak {
+	background-position: 0 -29px;
+}
+.password-check .good { 
+    background-position: 0 -58px;
+}
+.password-check .strong {
+    background-position: 0 -87px;
+}
+.code{
+    background:url(../img/littlegreen.jpg);
+    color:blue;
+    font-size:24px;
+    border:0;
+    letter-spacing:3px;
+    font-weight:bolder;                     
+    cursor:pointer;
+    width:60px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    vertical-align:bottom;
+    padding: 2px 0;
+}
+.verify-code {
+	cursor: pointer;
+}
+.success,.defeat {
+	position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -150px;
+    color: #ED3F7E;
+    background: #fff;
+    width: 300px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 0 1px 2px #ccc;
+}
+.success .iconfont {
+	color: mediumseagreen;
+	font-size: 24px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.defeat .iconfont {
+	color: #db3f7e;
+	font-size: 24px;
+    margin-right: 5px;
+    vertical-align: top;
+}
