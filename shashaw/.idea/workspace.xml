@@ -9,87 +9,149 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shashaw$views.coverage" NAME="views Coverage Results" MODIFIED="1544438419363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shasha" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shasha@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shasha@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shasha@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shasha: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="12" column="85" lean-forward="true" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+            <state relative-caret-position="2250">
+              <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
               <folding>
-                <element signature="n#block#1;n#!!top" expanded="false" />
-                <element signature="n#block#2;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#dd#0;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#dd#1;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#dd#2;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#block#4;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#block#5;n#!!top" expanded="false" />
+                <element signature="n#block#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ProductList.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="503" column="45" lean-forward="false" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
+              <folding>
+                <element signature="n#block#0;n#!!top" expanded="false" />
+                <element signature="n#block#3;n#!!top" expanded="false" />
+                <element signature="n#block#4;n#!!top" expanded="false" />
+                <element signature="n#block#6;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3285">
+              <caret line="311" column="10" lean-forward="false" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+              <folding>
+                <element signature="e#81#169#0" expanded="false" />
+                <element signature="e#175#263#0" expanded="false" />
+                <element signature="e#412#434#0" expanded="false" />
+                <element signature="e#483#671#0" expanded="false" />
+                <element signature="e#716#855#0" expanded="false" />
+                <element signature="e#893#2661#0" expanded="false" />
+                <element signature="e#2665#2687#0" expanded="false" />
+                <element signature="e#2726#2762#0" expanded="false" />
+                <element signature="e#2775#2809#0" expanded="false" />
+                <element signature="e#2814#2842#0" expanded="false" />
+                <element signature="e#2884#2929#0" expanded="false" />
+                <element signature="e#2942#2987#0" expanded="false" />
+                <element signature="e#3081#3267#0" expanded="false" />
+                <element signature="e#3280#3389#0" expanded="false" />
+                <element signature="e#3437#3732#0" expanded="false" />
+                <element signature="e#3816#4020#0" expanded="false" />
+                <marker date="1544443147786" expanded="true" signature="4797:4805" ph="..." />
+                <marker date="1544443147786" expanded="true" signature="5021:5029" ph="..." />
+                <marker date="1544443147786" expanded="true" signature="7849:7857" ph="..." />
+                <marker date="1544443147786" expanded="true" signature="9735:9743" ph="..." />
+                <marker date="1544443147786" expanded="true" signature="10119:10152" ph="..." />
+                <marker date="1544443147786" expanded="true" signature="11253:11262" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6899">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <marker date="1474340822000" expanded="true" signature="614:622" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="946:954" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="3673:3681" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="4019:4027" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="4377:4385" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="4724:4732" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="5293:5301" ph="..." />
+                <marker date="1474340822000" expanded="true" signature="5745:5753" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/signup.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product Details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Product Details.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shasha/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shasha/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shasha/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shashaw/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="1035">
+              <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+              <folding>
+                <element signature="e#30#56#0" expanded="false" />
+                <element signature="e#154#242#0" expanded="false" />
+                <element signature="e#218#242#0" expanded="false" />
+                <element signature="e#583#1043#0" expanded="false" />
+                <element signature="e#1016#1043#0" expanded="false" />
+                <element signature="e#1080#1210#0" expanded="false" />
+                <element signature="e#1183#1210#0" expanded="false" />
+                <element signature="e#1213#1262#0" expanded="false" />
+                <element signature="e#1530#2083#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,17 +163,31 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shasha/views.py" />
-        <option value="$PROJECT_DIR$/shashaw/settings.py" />
         <option value="$PROJECT_DIR$/shashaw/urls.py" />
+        <option value="$PROJECT_DIR$/templates/sl.html" />
+        <option value="$PROJECT_DIR$/static/js/dir.js" />
+        <option value="$PROJECT_DIR$/static/css/signup.css" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/Shopping Cart.html" />
         <option value="$PROJECT_DIR$/shasha/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Product Details.html" />
+        <option value="$PROJECT_DIR$/shashaw/settings.py" />
+        <option value="$PROJECT_DIR$/shashaw/__init__.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/shasha/views.py" />
+        <option value="$PROJECT_DIR$/static/css/common.css" />
+        <option value="$PROJECT_DIR$/static/js/common.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c0f08c4d-628e-458e-9b38-945ad7328ccb/console.sql" />
+        <option value="$PROJECT_DIR$/shasha/models.py" />
       </list>
     </option>
   </component>
@@ -121,11 +197,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="147" />
-    <option name="y" value="92" />
-    <option name="width" value="1272" />
-    <option name="height" value="779" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="79" />
+    <option name="y" value="82" />
+    <option name="width" value="1460" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -158,7 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +250,30 @@
             <path>
               <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
               <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+              <item name="shasha" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
               <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+              <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shashaw" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shashaw" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +284,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,9 +293,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\Git\python181203\shashaw\static" />
+      <recent name="D:\git\Git\python181203\shashaw" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Git\python181203\shashaw" />
       <recent name="D:\git\Git\python181203\shashaw\static" />
       <recent name="D:\git\Git\python181203\shashaw\templates" />
     </key>
@@ -213,7 +318,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
+    <configuration name="sl.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shashaw/templates/sl.html" />
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shasha" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="shashaw" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shasha/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="shashaw" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,6 +361,17 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Django server.shashaw" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sl.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.views" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sl.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -254,22 +390,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="79" y="82" width="1460" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5946309" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25716332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16570605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.068571426" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -286,15 +423,49 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shasha/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#126#247#0" expanded="false" />
+            <element signature="e#277#312#0" expanded="false" />
+            <element signature="e#345#383#0" expanded="false" />
+            <element signature="e#409#452#0" expanded="false" />
+            <element signature="e#478#512#0" expanded="false" />
+            <element signature="e#541#586#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shashaw/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#block#6;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -310,9 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#631#663#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -320,9 +489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -330,7 +497,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#block#6;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -338,7 +514,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#126#247#0" expanded="false" />
+            <element signature="e#277#312#0" expanded="false" />
+            <element signature="e#345#383#0" expanded="false" />
+            <element signature="e#409#452#0" expanded="false" />
+            <element signature="e#478#512#0" expanded="false" />
+            <element signature="e#541#586#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -354,34 +537,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#631#663#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4902">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shasha/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shasha/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shasha/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -395,10 +555,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shashaw/__init__.py">
+    <entry file="file://$PROJECT_DIR$/static/css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sl.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/dir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ProductList.html" />
+    <entry file="file://$PROJECT_DIR$/shashaw/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -410,84 +601,454 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/cart.css">
+    <entry file="file://$PROJECT_DIR$/templates/Shopping Cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="422">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="n#block#1;n#!!top" expanded="false" />
+            <element signature="n#block#2;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#block#5;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Product Details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="n#block#1;n#!!top" expanded="false" />
+            <element signature="n#block#2;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#block#5;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shashaw/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shashaw/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shashaw/urls.py">
+    <entry file="file://$PROJECT_DIR$/shasha/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/newarrivals.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/hotbrands.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/flashsale.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/banner.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding>
+            <marker date="1474512070000" expanded="true" signature="527:535" ph="..." />
+            <marker date="1474512070000" expanded="true" signature="892:900" ph="..." />
+            <marker date="1474512070000" expanded="true" signature="1117:1125" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_banner">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shasha/views.py">
+    <entry file="file://$PROJECT_DIR$/shasha/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shasha/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ProductList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Product Details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_hotbrands">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_newarrivals">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0f08c4d-628e-458e-9b38-945ad7328ccb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="5" column="83" lean-forward="false" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2960">
+          <caret line="835" column="0" lean-forward="false" selection-start-line="835" selection-start-column="0" selection-end-line="843" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#187#0" expanded="false" />
+            <element signature="e#193#344#0" expanded="false" />
+            <element signature="e#361#382#0" expanded="false" />
+            <element signature="e#406#449#0" expanded="false" />
+            <element signature="e#507#553#0" expanded="false" />
+            <element signature="e#556#600#0" expanded="false" />
+            <element signature="e#605#623#0" expanded="false" />
+            <element signature="e#635#657#0" expanded="false" />
+            <element signature="e#690#761#0" expanded="false" />
+            <element signature="e#768#799#0" expanded="false" />
+            <element signature="e#805#829#0" expanded="false" />
+            <element signature="e#865#947#0" expanded="false" />
+            <element signature="e#958#972#0" expanded="false" />
+            <element signature="e#979#1015#0" expanded="false" />
+            <element signature="e#1020#1037#0" expanded="false" />
+            <element signature="e#1042#1060#0" expanded="false" />
+            <element signature="e#1084#1169#0" expanded="false" />
+            <element signature="e#1183#1273#0" expanded="false" />
+            <element signature="e#1283#1362#0" expanded="false" />
+            <element signature="e#1372#1509#0" expanded="false" />
+            <element signature="e#1519#1671#0" expanded="false" />
+            <element signature="e#1683#1766#0" expanded="false" />
+            <element signature="e#1776#1911#0" expanded="false" />
+            <element signature="e#1931#1969#0" expanded="false" />
+            <element signature="e#1981#2002#0" expanded="false" />
+            <element signature="e#2024#2360#0" expanded="false" />
+            <element signature="e#2379#2443#0" expanded="false" />
+            <element signature="e#2459#2672#0" expanded="false" />
+            <element signature="e#2707#2796#0" expanded="false" />
+            <element signature="e#2828#2977#0" expanded="false" />
+            <element signature="e#3023#3115#0" expanded="false" />
+            <element signature="e#3153#3199#0" expanded="false" />
+            <element signature="e#3211#3327#0" expanded="false" />
+            <element signature="e#3337#3547#0" expanded="false" />
+            <element signature="e#3558#3696#0" expanded="false" />
+            <element signature="e#3712#3747#0" expanded="false" />
+            <element signature="e#3773#3907#0" expanded="false" />
+            <element signature="e#3935#4018#0" expanded="false" />
+            <element signature="e#4054#4095#0" expanded="false" />
+            <element signature="e#4123#4276#0" expanded="false" />
+            <element signature="e#4307#4408#0" expanded="false" />
+            <element signature="e#4421#4480#0" expanded="false" />
+            <element signature="e#4489#4576#0" expanded="false" />
+            <element signature="e#4600#4677#0" expanded="false" />
+            <element signature="e#4705#4742#0" expanded="false" />
+            <element signature="e#4764#4900#0" expanded="false" />
+            <element signature="e#4912#4929#0" expanded="false" />
+            <element signature="e#4943#4992#0" expanded="false" />
+            <element signature="e#5005#5043#0" expanded="false" />
+            <element signature="e#5059#5151#0" expanded="false" />
+            <element signature="e#5182#5242#0" expanded="false" />
+            <element signature="e#5264#5289#0" expanded="false" />
+            <element signature="e#5307#5365#0" expanded="false" />
+            <element signature="e#5396#5453#0" expanded="false" />
+            <element signature="e#5470#5678#0" expanded="false" />
+            <element signature="e#5700#5792#0" expanded="false" />
+            <element signature="e#5811#5831#0" expanded="false" />
+            <element signature="e#5856#5876#0" expanded="false" />
+            <element signature="e#5902#5988#0" expanded="false" />
+            <element signature="e#6016#6084#0" expanded="false" />
+            <element signature="e#6110#6192#0" expanded="false" />
+            <element signature="e#6222#6248#0" expanded="false" />
+            <element signature="e#6279#6340#0" expanded="false" />
+            <element signature="e#6360#6418#0" expanded="false" />
+            <element signature="e#6425#6510#0" expanded="false" />
+            <element signature="e#6519#6569#0" expanded="false" />
+            <element signature="e#6584#6699#0" expanded="false" />
+            <element signature="e#6719#6908#0" expanded="false" />
+            <element signature="e#6924#7163#0" expanded="false" />
+            <element signature="e#7174#7296#0" expanded="false" />
+            <element signature="e#7309#7481#0" expanded="false" />
+            <element signature="e#7492#7525#0" expanded="false" />
+            <element signature="e#7536#7776#0" expanded="false" />
+            <element signature="e#7789#7830#0" expanded="false" />
+            <element signature="e#7853#7940#0" expanded="false" />
+            <element signature="e#7961#7981#0" expanded="false" />
+            <element signature="e#8005#8064#0" expanded="false" />
+            <element signature="e#8091#8141#0" expanded="false" />
+            <element signature="e#8165#8215#0" expanded="false" />
+            <element signature="e#8250#8299#0" expanded="false" />
+            <element signature="e#8326#8372#0" expanded="false" />
+            <element signature="e#8392#8415#0" expanded="false" />
+            <element signature="e#8441#8482#0" expanded="false" />
+            <element signature="e#8511#8581#0" expanded="false" />
+            <element signature="e#8600#8623#0" expanded="false" />
+            <element signature="e#8640#8692#0" expanded="false" />
+            <element signature="e#8722#8953#0" expanded="false" />
+            <element signature="e#8976#9042#0" expanded="false" />
+            <element signature="e#9053#9106#0" expanded="false" />
+            <element signature="e#9119#9210#0" expanded="false" />
+            <element signature="e#9228#9268#0" expanded="false" />
+            <element signature="e#9285#9310#0" expanded="false" />
+            <element signature="e#9320#9376#0" expanded="false" />
+            <element signature="e#9390#9500#0" expanded="false" />
+            <element signature="e#9518#9633#0" expanded="false" />
+            <element signature="e#9653#9671#0" expanded="false" />
+            <element signature="e#9681#9903#0" expanded="false" />
+            <element signature="e#9912#9988#0" expanded="false" />
+            <element signature="e#10002#10210#0" expanded="false" />
+            <element signature="e#10226#10275#0" expanded="false" />
+            <element signature="e#10294#10357#0" expanded="false" />
+            <element signature="e#10372#10421#0" expanded="false" />
+            <element signature="e#10431#10458#0" expanded="false" />
+            <element signature="e#10482#10629#0" expanded="false" />
+            <element signature="e#10645#10845#0" expanded="false" />
+            <element signature="e#10862#10879#0" expanded="false" />
+            <element signature="e#10894#10960#0" expanded="false" />
+            <element signature="e#10978#11160#0" expanded="false" />
+            <element signature="e#11182#11220#0" expanded="false" />
+            <element signature="e#11232#11248#0" expanded="false" />
+            <element signature="e#11281#11318#0" expanded="false" />
+            <element signature="e#11333#11453#0" expanded="false" />
+            <element signature="e#11473#11650#0" expanded="false" />
+            <element signature="e#11665#11758#0" expanded="false" />
+            <element signature="e#11776#11814#0" expanded="false" />
+            <element signature="e#11831#11944#0" expanded="false" />
+            <element signature="e#11957#12103#0" expanded="false" />
+            <element signature="e#12118#12196#0" expanded="false" />
+            <element signature="e#12219#12249#0" expanded="false" />
+            <element signature="e#12265#12327#0" expanded="false" />
+            <element signature="e#13400#13470#0" expanded="false" />
+            <element signature="e#13485#13539#0" expanded="false" />
+            <element signature="e#13559#13632#0" expanded="false" />
+            <element signature="e#13837#13898#0" expanded="false" />
+            <element signature="e#13926#13964#0" expanded="false" />
+            <element signature="e#13994#14059#0" expanded="false" />
+            <element signature="e#14074#14112#0" expanded="false" />
+            <element signature="e#14142#14162#0" expanded="false" />
+            <element signature="e#14896#15027#0" expanded="false" />
+            <element signature="e#15051#15155#0" expanded="false" />
+            <element signature="e#15187#15212#0" expanded="false" />
+            <element signature="e#15239#15269#0" expanded="false" />
+            <element signature="e#15292#15399#0" expanded="false" />
+            <element signature="e#15434#15614#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shasha/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#277#312#0" expanded="false" />
+            <element signature="e#345#383#0" expanded="false" />
+            <element signature="e#409#452#0" expanded="false" />
+            <element signature="e#478#512#0" expanded="false" />
+            <element signature="e#541#586#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="12" column="85" lean-forward="true" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+        <state relative-caret-position="-135">
+          <caret line="45" column="65" lean-forward="true" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
           <folding>
             <element signature="n#block#1;n#!!top" expanded="false" />
             <element signature="n#block#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#dd#0;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dd#1;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dd#2;n#dl#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#block#4;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#block#5;n#!!top" expanded="false" />
+            <element signature="n#block#6;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/new_file.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6899">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1474340822000" expanded="true" signature="614:622" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="946:954" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="3673:3681" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="4019:4027" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="4377:4385" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="4724:4732" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="5293:5301" ph="..." />
+            <marker date="1474340822000" expanded="true" signature="5745:5753" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_flashsale">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/4b78bdc/c0f08c4d-628e-458e-9b38-945ad7328ccb/shasha.shasha_newarrivals">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shasha/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+          <folding>
+            <element signature="e#30#56#0" expanded="false" />
+            <element signature="e#154#242#0" expanded="false" />
+            <element signature="e#218#242#0" expanded="false" />
+            <element signature="e#583#1043#0" expanded="false" />
+            <element signature="e#1016#1043#0" expanded="false" />
+            <element signature="e#1080#1210#0" expanded="false" />
+            <element signature="e#1183#1210#0" expanded="false" />
+            <element signature="e#1213#1262#0" expanded="false" />
+            <element signature="e#1530#2083#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="311" column="10" lean-forward="false" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+          <folding>
+            <element signature="e#81#169#0" expanded="false" />
+            <element signature="e#175#263#0" expanded="false" />
+            <element signature="e#412#434#0" expanded="false" />
+            <element signature="e#483#671#0" expanded="false" />
+            <element signature="e#716#855#0" expanded="false" />
+            <element signature="e#893#2661#0" expanded="false" />
+            <element signature="e#2665#2687#0" expanded="false" />
+            <element signature="e#2726#2762#0" expanded="false" />
+            <element signature="e#2775#2809#0" expanded="false" />
+            <element signature="e#2814#2842#0" expanded="false" />
+            <element signature="e#2884#2929#0" expanded="false" />
+            <element signature="e#2942#2987#0" expanded="false" />
+            <element signature="e#3081#3267#0" expanded="false" />
+            <element signature="e#3280#3389#0" expanded="false" />
+            <element signature="e#3437#3732#0" expanded="false" />
+            <element signature="e#3816#4020#0" expanded="false" />
+            <marker date="1544443147786" expanded="true" signature="4797:4805" ph="..." />
+            <marker date="1544443147786" expanded="true" signature="5021:5029" ph="..." />
+            <marker date="1544443147786" expanded="true" signature="7849:7857" ph="..." />
+            <marker date="1544443147786" expanded="true" signature="9735:9743" ph="..." />
+            <marker date="1544443147786" expanded="true" signature="10119:10152" ph="..." />
+            <marker date="1544443147786" expanded="true" signature="11253:11262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="503" column="45" lean-forward="false" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
+          <folding>
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="n#block#3;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#block#6;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

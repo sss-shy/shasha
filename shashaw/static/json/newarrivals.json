@@ -1,0 +1,10 @@
+[
+	{"messpic":"limit","coupic":"korea","pic":"Dr","saleNum":12,"price":140.0,"dis":207.0,"count":"6.7","des02":"DR.ORACLE","des03":"MAKEUP BASE 爱护理抗敏BB修饰霜SPF50+ PA+++ ","des04":"40 毫升  ","des05":"Dr.Oracle (奥拉克博士) 爱护理抗敏BB修饰霜，专为敏感性肌肤设计，以多种植物保湿护肤成分，温和地调整肤色和遮蔽瑕疵。"},
+	{"messpic":"limit","coupic":"japan","pic":"xueji","saleNum":6,"price":459.0,"dis":699.0,"count":"6.6","des02":"雪肌精","des03":"美白保湿滋润套装","des04":"2 件  ","des05":"KOSÉ (高丝) 美白保湿滋润套装，包括：药用雪肌精化妆水 (200毫升)、药用雪肌精乳液 (140毫升)。"},
+	{"messpic":"vip","coupic":"E.M","pic":"olay","saleNum":"","price":218.0,"dis":280.0,"count":"7.8","des02":"玉兰油","des03":"高效透白光塑清滢精粹油","des04":"40 毫升  ","des05":""},
+	{"messpic":"vip","coupic":"korea","pic":"BRTC","saleNum":"","price":253.0,"dis":440.0,"count":"5.8","des02":"BRTC","des03":"RETAIL SETS 黄金鱼子精华 BB 修饰霜套装","des04":"4 件","des05":""},
+	{"messpic":"limit","coupic":"E.M","pic":"keyan","saleNum":43,"price":268.0,"dis":335.0,"count":"8","des02":"科颜氏","des03":"黄瓜植物爽肤水","des04":"500 毫升","des05":"Kiehl's (科颜氏) 黄瓜植物爽肤水由多种植物萃取精华结合而成，性质温和，不含酒精，能发挥舒缓、保湿和均衡肌肤的护肤功效。"},
+	{"messpic":"limit","coupic":"japan","pic":"zst","saleNum":2,"price":275.0,"dis":340.0,"count":"8.1","des02":"资生堂","des03":"新艳阳夏臻效水动力防护乳 SPF50+ / PA++++（2016版）","des04":"50 毫升","des05":"【Shiseido (資生堂) 新艳阳夏臻效水动力防护乳 SPF50+ / PA++++】 (50 毫升)，采用独创 SuperVeil-UV 360™ 技术及崭新的 WetForce 技术，带来前所未有的高度防晒效果，无惧汗水、雨水及海水，让你尽情在艳阳下挥汗、畅泳。"}	,
+	{"messpic":"new","coupic":"E.M","pic":"olay02","saleNum":"","price":168.0,"dis":220.0,"count":"7.6","des02":"玉兰油","des03":"高效透白光塑面膜精华液","des04":"150 毫升  ","des05":""},
+	{"messpic":"new","coupic":"japan","pic":"jizi","saleNum":"","price":300.0,"dis":668.0,"count":"4.5","des02":"肌っ子","des03":"RETAIL SETS 夏日防晒保湿套装","des04":"2 件","des05":""} 
+]

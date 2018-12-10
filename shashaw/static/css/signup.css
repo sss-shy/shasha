@@ -7,6 +7,12 @@
 	background: #fff;
 	position: relative;
 }
+.footer .helper {
+    background-color: #fff;
+    border-top: 4px solid white;
+    min-height: 209px;
+    padding: 30px 0;
+}
 .sotelogo {
 	width: 300px;
 	height: 45px;

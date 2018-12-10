@@ -127,55 +127,20 @@ $(function() {
 	/*
 	 * banner
 	 */
-	var $ol = $('#banner_list');
-	$.getJSON("json/banner.json", function(data) {
-		for(var i = 0; i < data.length; i++) {
-			var obj = data[i];
-			var a = $('<a></a>');
+	new Swiper('#topSwiper',{
+		pagination: '.swiper-pagination',
+        // nextButton: '.swiper-button-next',
+        // prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 5,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
 
-			var li = $('<li></li>');
-			li.css('background', 'url(' + obj.url + ') center top no-repeat').addClass(obj.class);
-			li.appendTo(a);
-			a.appendTo($ol);
-			$('.switchable-wp .slide-trigger').append('<li><a>' + (i + 1) + '</a></li>')
-		}
-		var $li = $('#banner_list li');
-		var $li_tip = $('.switchable-wp .slide-trigger li');
-		var size = $("#banner_list li").length;
-		//初始化下标
-		var i = 0;
-		$li.eq(i).css('display', 'block');
-		$li_tip.eq(i).addClass('active');
-		//设置定时器，自动轮播
-		var timer = setInterval(function() {
-			i++;
-			fadeImg();
-		}, 4000)
+    });
 
-		function fadeImg() {
-			if(i >= size) {
-				i = 0;
-			}
-			//			$li.animate({opacity:0}).eq(i).animate({opacity:1});
-			$li.not($li.eq(i)).fadeOut();
-			$li.eq(i).fadeIn();
-			$li_tip.removeClass('active').eq(i).addClass('active');
-		}
-		$li_tip.mouseenter(function() {
-			var index = $(this).index();
-			i = index;
-			fadeImg();
-		})
-		$('#banner_list').hover(function() {
-			clearInterval(timer);
-		}, function() {
-			clearInterval(timer);
-			timer = setInterval(function() {
-				i++;
-				fadeImg();
-			}, 4000)
-		})
-	})
+
+
 
 	/*
 	 * mustcheck

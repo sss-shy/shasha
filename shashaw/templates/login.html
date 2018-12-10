@@ -1,104 +1,23 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<link rel="dns-prefetch" href="//cdnec.sasa.com">
-		<!--预解析-->
-		<link rel='icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
-		<!--图标-->
-		<link rel='shortcut icon' href=http://cdnec.sasa.com/public/app/site/statics/favicon.ico type='image/x-icon' />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!--文档兼容模式-->
-		<title>莎莎网-登录</title>
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    莎莎网-登录
+{% endblock %}
+<!--css-->
+{% block basecss %}
+    <link rel="stylesheet" href="{% static 'css/signup.css' %}" />
+{% endblock %}
 
-		<!--css-->
-		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/iconfont.css" />
-		<link rel="stylesheet" href="css/signup.css" />
-		<!--js-->
-		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
-		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/topbar.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
-	</head>
-	<body id="signup">
-		<!--顶部-->
-		<div class="topbar">
-			<div class="page">
-				<div class="login-bar">
-					<span><span>欢迎光临莎莎官网！</span>
-					<a href="login.html" style="margin-left:10px;">登录</a> <span class="dividing">或 </span>
-					<a href="register.html">免费注册</a>
-					</span>
-				</div>
-				<div class="member-bar">
-					<ul>
-						<li class="line">
-							<div class="member-link">
-								<a href="">
-									<i class="iconfont">&#xe609;</i>我的账户<i class="iconfont min">&#xe60a;</i>
-								</a>
-								<dl id="mem_dl_247" style="display: none;">
-									<dd>
-										<a href="/account/login" rel="nofollow">我的订单</a>
-									</dd>
-									<dd>
-										<a href="/account/login" rel="nofollow">我的积分</a>
-									</dd>
-									<dd>
-										<a href="/account/login" rel="nofollow">我的优惠券</a>
-									</dd>
-									<dd>
-										<a href="/account/login" rel="nofollow">我的收藏</a>
-									</dd>
-									<dd>
-										<a href="/account/login" rel="nofollow">我的评价</a>
-									</dd>
-								</dl>
-							</div>
-						</li>
-						<li class="line">
-							<div class="member-link">
-								<a href=""><i class="iconfont">&#xe603;</i>我的收藏</a>
-							</div>
-						</li>
-						<li class="line">
-							<div class="member-link">
-								<a href=""><i class="iconfont">&#xe602;</i>我的站内信</a>
-							</div>
-						</li>
-						<li class="line">
-							<div class="member-link">
-								<a href="">积分中心</a>
-							</div>
-						</li>
-						<li class="line">
-							<div class="member-link">
-								<a href="">Global Site</a>
-							</div>
-						</li>
-						<li class="line">
-							<div class="member-link">
-								<a href="">关注我们<i class="iconfont min">&#xe60a;</i></a>
-								<dl class="ajust" id="us_246">
-									<dt><a href=""><img src="img/topbar/add.png" alt="加入收藏" height="12" width="16">加入收藏</a><a href=""><img src="img/topbar/weibo.png" alt="新浪微博" height="15" width="17">新浪微博</a><a href=""><img src="img/topbar/weixin.png" alt="莎莎微信" height="14" width="17">莎莎微信</a><a href=""><img src="img/topbar/youku.png" alt="优酷视频" height="13" width="17">优酷视频</a></dt>
-									<dd style="display: none;"><img src="img/topbar/bigweibo.jpg" alt="新浪微博" width="100px" height="100px"></dd>
-									<dd style="display: none;"><img src="img/topbar/bigweixin.jpg" alt="莎莎微信" width="100px" height="100px"></dd>
-									<dd style="display: none;"><img src="img/topbar/bigyouku.jpg" alt="优酷视频" width="100px" height="100px"></dd>
-								</dl>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="header-main page">
-			<div class="sotelogo">
-				<a href="index.html"><img alt="Ecstore-demo" src="img/logo.png" border="0"></a>
-			</div>
-		</div>
-		<div class="login_con page">
+<!--js-->
+{% block basejs %}
+    <script src="{% static 'js/login.js' %}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}
+
+
+
+<!--顶部-->
+{% block basebodyt %}
+	<div class="login_con page">
 			<div class="signin_wrap">
 				<div class="signin">
 					<div class="sign-title">
@@ -145,20 +64,18 @@
 						<p>第三方账号登录</p>
 						<ul>
 							<li>
-								<a href="/qqlogin-trust_login.html"><img src="img/login/qq.jpg">QQ登录</a>
+								<a href="/qqlogin-trust_login.html"><img src="{% static 'img/login/qq.jpg' %}">QQ登录</a>
 							</li>
 							<li>
-								<a href="/wblogin-login.html"><img src="img/login/weibo.jpg">微博登录</a>
+								<a href="/wblogin-login.html"><img src="{% static 'img/login/weibo.jpg' %}">微博登录</a>
 							</li>
 							<li>
-								<a href="/alipaylogin-login.html"><img src="img/login/zhifubao.jpg">支付宝登录</a>
+								<a href="/alipaylogin-login.html"><img src="{% static 'img/login/zhifubao.jpg' %}">支付宝登录</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="theme-footer"><p style="text-align: center;"><font face="Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif"><span style="font-size: 13px; line-height: 20px;"><font color="#999999">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 莎莎国际控股有限公司成员</font></span></font></p>
- </div>
-	</body>
-</html>
+{% endblock %}
+

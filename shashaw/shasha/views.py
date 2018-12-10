@@ -2,8 +2,17 @@ from django.shortcuts import render
 
 # Create your views here.
 #首页
+from shasha.models import Banner
+
+
 def index(request):
-    return render(request,"index.html")
+    tupis= Banner.objects.all()
+
+
+    data={
+        'tupis':tupis
+    }
+    return render(request,"index.html",context=data)
 
 #登录
 def login(request):
@@ -20,3 +29,9 @@ def cart(request):
 
 def base(request):
     return render(request,"base.html")
+
+
+def details(request):
+    return render(request,'Product Details.html')
+
+
